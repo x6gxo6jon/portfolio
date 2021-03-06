@@ -13,13 +13,14 @@ html,body{
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 
 h1,h2,h3,h4,h5,p,span{
-	color: #3E3A39;
+	color: #f9ab00;
 	line-height: 1.6em;
 }
 h1{
 	font-size: 40px;
 }
 h2{
+	color: #3E3A39;
 	font-size: 28px;
 	font-weight: 300;
 }
@@ -33,16 +34,20 @@ h4{
 	font-weight: 600;
 }
 h5{
+	color: #3E3A39;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 1.8em;
 }
 p{
+	color: #3E3A39;
 	font-size: 14px;
 	margin-top: 8px;
 	line-height: 2em;
 }
-
+span{
+	color: #3E3A39;
+}
 /*header*/
 header{
 	padding-top: 20px;
@@ -178,6 +183,7 @@ header{
 	margin-top: 130px;
 	margin-bottom: 20px;
 	font-weight: 600;
+	color: #f9ab00;
 }
 .about_txt{
 	margin-bottom: .5em;
@@ -193,13 +199,14 @@ header{
 }
 .info span,.info h4{
 	display: inline-block;
+	color: #3E3A39;
 }
 .info span{
 	font-family: 微軟正黑體;
 	font-size: 14px;
 }
 .ability_bg{
-	background-color: #eee;
+	background-color: #fef6e5;
 	width: 100%;
 	height: auto;
 	text-align: center;
@@ -286,7 +293,7 @@ header{
 	width: 100%;
 }
 .expe{
-	background-color: #eee;
+	background-color: #fef6e5;
 	padding:30px 0 62px;
 }
 .expe-group{
@@ -317,7 +324,7 @@ header{
 	width: 16px;
 	height: 16px;
 	border-radius: 50%;
-	background-color: #CCC;
+	background-color: #f9ab00;
 	position: absolute;
 	top: 50%;
 	left: -8px;
@@ -380,6 +387,7 @@ header{
 }
 .row_sec{
 	margin-top: 16px;
+	margin-bottom: 16px;
 }
 .imbox_sm{
 	margin-right: 16px;
